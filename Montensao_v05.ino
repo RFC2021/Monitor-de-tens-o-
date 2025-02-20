@@ -4,13 +4,13 @@
 #include <ESP8266mDNS.h>
 #include <WiFiClient.h>
 
-const char *ssid = "UNIVALI IoT";
-const char *password = "3dq9ittx";
+const char *ssid = "";
+const char *password = "";
 
-const char *smtpServer = "smtp2.univali.br";  // Servidor SMTP sem autenticação
+const char *smtpServer = "smtp2.br";  // Servidor SMTP sem autenticação
 const int smtpPort = 25;                // Porta SMTP sem SSL
-const char *senderEmail = "nao_responda_esp@univali.br";
-const char *recipientEmail = "rafael.costa@univali.br";
+const char *senderEmail = "nao_responda_esp@.br";
+const char *recipientEmail = "rafael.costa@.br";
 
 ESP8266WebServer server(80);
 WiFiClient client;  // Para conexão ao servidor SMTP
